@@ -51,8 +51,14 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
     gap: 8,
   },
-  infoText: {
+  infoTextCriadas: {
     color: "#4EA8DE",
+    fontSize: 14,
+    fontStyle: "normal",
+    fontWeight: "700",
+  },
+  infoTextConcluidas: {
+    color: "#8284FA",
     fontSize: 14,
     fontStyle: "normal",
     fontWeight: "700",

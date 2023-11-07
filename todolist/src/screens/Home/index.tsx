@@ -97,11 +97,11 @@ export function Home() {
       </View>
       <View style={styles.info}>
         <View style={styles.infoItem}>
-          <Text style={styles.infoText}>Criadas</Text>
+          <Text style={styles.infoTextCriadas}>Criadas</Text>
           <Text style={styles.infoNumber}>{taskCreated}</Text>
         </View>
         <View style={styles.infoItem}>
-          <Text style={styles.infoText}>Concluidas</Text>
+          <Text style={styles.infoTextConcluidas}>Concluidas</Text>
           <Text style={styles.infoNumber}>{taskConcluded}</Text>
         </View>
       </View>
