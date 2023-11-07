@@ -74,15 +74,15 @@ export const styles = StyleSheet.create({
     borderBottomColor: "#333",
     marginLeft: 24,
     marginRight: 24,
+    marginBottom:20
   },
   emptyTask: {
     alignItems: "center",
-    paddingTop:48,
-    paddingBottom:48,
-    paddingRight:20,
-    paddingLeft:20,
-    gap:16
-
+    paddingTop: 48,
+    paddingBottom: 48,
+    paddingRight: 20,
+    paddingLeft: 20,
+    gap: 16,
   },
   emptyTaskMessageText: {
     fontSize: 14,
