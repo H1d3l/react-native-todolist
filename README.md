@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O ToDo é uma aplicação de de controle de tarefas, que contém as seguintes funcionalidades:.
+O ToDo é uma aplicação de controle de tarefas, que contém as seguintes funcionalidades:
 
 - Adicionar uma nova tarefa
 - Marcar e desmarcar uma tarefa como concluída
