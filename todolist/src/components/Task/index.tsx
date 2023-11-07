@@ -1,18 +1,24 @@
 import { Image, View, Text, TouchableOpacity } from "react-native";
 import { styles } from "./styles";
 
-type Props = {
+export type Tarefa = {
   name: string;
   concluded: boolean;
-  onChangeStatus: () => void;
-  onRemove: () => void;
+  onChangeStatus?: () => void;
+  onRemove?: () => void;
 };
 
-export function Task({ name, concluded, onChangeStatus, onRemove }: Props) {
+export function Task({ name, concluded, onChangeStatus, onRemove }: Tarefa) {
   return (
     <View style={styles.cardTask}>
       <TouchableOpacity style={styles.cicle} onPress={onChangeStatus}>
-        <Image source={concluded ? require("../../../assets/images/cicle-on.png") :require("../../../assets/images/cicle-off.png")} />
+        <Image
+          source={
+            concluded
+              ? require("../../../assets/images/cicle-on.png")
+              : require("../../../assets/images/cicle-off.png")
+          }
+        />
       </TouchableOpacity>
 
       <Text
